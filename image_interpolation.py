@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # 讀取圖片
-image_path = r"C:\Users\88691\image_interpolation\64.jpg"  # 替換為你的圖片路徑
+image_path = r"images/64.jpg"
 image = cv2.imread(image_path)
 
 # 獲取原始圖片的尺寸
